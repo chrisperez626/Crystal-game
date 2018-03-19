@@ -1,0 +1,19 @@
+body{
+    background: "../images/wormz.png";
+}
+h1,.scoreboard{
+    color: white;
+}
+h1{
+    background: orangered;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rules{
+    background: peachpuff;
+    width: 30%;
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
