@@ -1,5 +1,5 @@
 body{
-    background: "../images/wormz.png";
+    background-image: url("../images/wormz.png");
 }
 h1,.scoreboard{
     color: white;
@@ -16,4 +16,11 @@ h1{
     color: green;
     padding-top: 20px;
     padding-bottom: 60px;
+}
+.scoreboard{
+    background: teal;
+    width: 30%;
+}
+#winsLosses{
+    background: skyblue;
 }
