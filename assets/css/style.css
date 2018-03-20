@@ -1,26 +1,52 @@
 body{
     background-image: url("../images/wormz.png");
 }
-h1,.scoreboard{
+/* font color for score and title */
+h1,.scoreboard, .totalScore{
     color: white;
 }
+/* styles for title */
 h1{
     background: orangered;
     width: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/* styles for ruleboard */
 .rules{
     background: peachpuff;
     width: 30%;
     color: green;
     padding-top: 20px;
     padding-bottom: 60px;
+    font-weight: bold;
 }
-.scoreboard{
+/* sets up background for score */
+.scoreboard , .totalScore{
     background: teal;
-    width: 30%;
+    width: 20%;
+    padding: 5px;
 }
-#winsLosses{
+/* styles for win and loss counter */
+#winTracker{
     background: skyblue;
+    height: 100px;
+    width: 10%; 
+}
+/* font size for number to guess and score */
+#scoreGoal, .totalScore{
+    font-size: 50px;
+}
+/* style for score */
+.totalScore{
+    padding-bottom: 100px;
+    
+}
+/* styles for number to guess */
+#scoreGoal{
+    background: green;
+    color: purple;
+    width: 20%;
+    padding-bottom: 100px;
+    margin-top: 20px;
 }
